@@ -1,3 +1,1 @@
-console.log(
-  `${ProcessingInstruction.argsv[2]} is ${ProcessingInstruction.argsv[3]}`
-);
+console.log(`${process.argv[2]} is ${process.argv[3]}`);

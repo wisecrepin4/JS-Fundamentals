@@ -1,1 +1,1 @@
-console.log(Process.argsv[2]);
+console.log(process.argv[2]);
