@@ -1,4 +1,4 @@
-let length = ProcessingInstruction.argsv.splice(2).length;
+let length = process.argv.splice(2).length;
 if (length == 0) {
   console.log("No argumrnt");
 } else if (length == 1) {
