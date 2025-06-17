@@ -1,6 +1,4 @@
 let times = process.argv[2];
 for (let i = 1; i <= times; i++) {
-  for (let i = 1; i <= times; i++) {
-    console.log("X");
-  }
+  console.log("X".repeat(times));
 }

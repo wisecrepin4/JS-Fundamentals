@@ -1,6 +1,8 @@
 let f = process.argv[2];
-if (f + 0) {
-  console.log(`My number: ${f + 0}`);
+const num = Number(f);
+
+if (!isNaN(num)) {
+  console.log(`My number: ${num}`);
 } else {
   console.log("Not a number");
 }
