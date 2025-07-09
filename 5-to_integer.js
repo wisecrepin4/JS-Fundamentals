@@ -6,3 +6,4 @@ if (!isNaN(num)) {
 } else {
   console.log("Not a number");
 }
+//testing whether a variable is a number
